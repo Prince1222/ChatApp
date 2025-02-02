@@ -10,4 +10,8 @@ class ChatComponent extends Component
     {
         return view('livewire.chat-component');
     }
+
+    public function mount($user_id){
+ 
+    }
 }
