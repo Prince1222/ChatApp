@@ -5,7 +5,7 @@
       style="top:0px; overscroll-behavior: none;"
     >
       <!-- back button -->
-      <router-link to="/chat">
+      <a href="/dashboard">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -16,8 +16,8 @@
             d="M9.41 11H17a1 1 0 0 1 0 2H9.41l2.3 2.3a1 1 0 1 1-1.42 1.4l-4-4a1 1 0 0 1 0-1.4l4-4a1 1 0 0 1 1.42 1.4L9.4 11z"
           />
         </svg>
-      </router-link>
-      <div class="my-3 text-green-100 font-bold text-lg tracking-wide">@rallipi</div>
+      </a>
+      <div class="my-3 text-green-100 font-bold text-lg tracking-wide">{{$user->name}}</div>
       <!-- 3 dots -->
       <svg
         xmlns="http://www.w3.org/2000/svg"
